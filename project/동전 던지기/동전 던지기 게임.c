@@ -60,7 +60,7 @@ int main()
 		}
 		case 2:
 		{
-			for (int i = 1; i < 2; ++i)
+			for (int i = 1; i < 3; ++i)
 			{
 				if (menu2 == b_rand())
 				{
@@ -79,7 +79,7 @@ int main()
 		}
 		case 3:
 		{
-			for (int i = 1; i < 3; ++i)
+			for (int i = 1; i < 4; ++i)
 			{
 				if (menu2 == b_rand())
 				{
@@ -98,7 +98,7 @@ int main()
 		}
 		case 4:
 		{
-			for (int i = 1; i < 4; ++i)
+			for (int i = 1; i < 5; ++i)
 			{
 				if (menu2 == b_rand())
 				{
@@ -117,7 +117,7 @@ int main()
 		}
 		case 5:
 		{
-			for (int i = 1; i < 3; ++i)
+			for (int i = 1; i < 6; ++i)
 			{
 				if (menu2 == b_rand())
 				{

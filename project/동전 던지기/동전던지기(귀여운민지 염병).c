@@ -37,7 +37,7 @@ int main() {
 			else
 				printf("컴퓨터 승\n\n");
 		}
-		if (a == 2) {
+		else if (a == 2) {
 			for (i = 0; i < 2; i++) {
 				printf("\n메뉴2\n");
 				printf("동전의 앞면과 뒷면 중 하나를 고르시오.\n");
@@ -52,7 +52,7 @@ int main() {
 					printf("컴퓨터 승\n\n");
 			}
 		}
-		if (a == 3) {
+		else if (a == 3) {
 			for (i = 0; i < 3; i++) {
 				printf("\n메뉴2\n");
 				printf("동전의 앞면과 뒷면 중 하나를 고르시오.\n");
@@ -67,7 +67,7 @@ int main() {
 					printf("컴퓨터 승\n\n");
 			}
 		}
-		if (a == 4) {
+		else if (a == 4) {
 			for (i = 0; i < 4; i++) {
 				printf("\n메뉴2\n");
 				printf("동전의 앞면과 뒷면 중 하나를 고르시오.\n");
@@ -82,7 +82,7 @@ int main() {
 					printf("컴퓨터 승\n\n");
 			}
 		}
-		if (a == 5) {
+		else if (a == 5) {
 			for (i = 0; i < 5; i++) {
 				printf("\n메뉴2\n");
 				printf("동전의 앞면과 뒷면 중 하나를 고르시오.\n");
