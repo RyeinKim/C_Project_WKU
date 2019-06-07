@@ -8,11 +8,11 @@ typedef struct team_list {
 }team;
 
 void main() {
-	team com1;
+	team com[6];
 
 	for (int i = 1; i <= 6; i++) {
 		printf("팀원%d의 이름을 입력하세요 : ", j);
-		scanf("%s", &com1.name);
+		scanf("%s", &com[i].name);
 		printf("나이를 입력하세요 : ");
 		scanf("%d", &com1.age);
 		printf("성별을 입력하세요 : ");
