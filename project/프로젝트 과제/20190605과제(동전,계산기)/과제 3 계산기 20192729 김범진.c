@@ -1,10 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+
 int add(int a, int b);
 int sub(int a, int b);
 int dis(int a, int b);
 int mul(int a, int b);
+
 struct bumzani {
 	int st, nd, num1, num2, num3, num4;
 	int (*ADD)(int, int);
@@ -13,6 +15,7 @@ struct bumzani {
 	int (*MUL)(int, int);
 	char Sym;
 };
+
 int main() {
 	while (1) {
 		struct bumzani A;
@@ -40,15 +43,19 @@ int main() {
 			printf("¿À·ù\n\n");
 	}
 }
+
 int add(int a, int b) {
 	return a + b;
 }
+
 int sub(int a, int b) {
 	return a - b;
 }
+
 int dis(int a, int b) {
 	return a / b;
 }
+
 int mul(int a, int b) {
 	return a * b;
 }

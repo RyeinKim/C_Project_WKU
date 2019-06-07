@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 int b_rand();
 int play(char a);
+
 struct bumjin{
 	int coin;
 };
+
 int main() {
 	struct bumjin game1;
 	printf("앞면(1) OR 뒷면(0)\n");
@@ -14,6 +17,7 @@ int main() {
 	printf("두번째 동전의 면은? = %d\n", b_rand());
 	play(game1.coin);
 }
+
 int play(char a) {
 	struct bumjin game;
 	if (a == 1) {
@@ -31,6 +35,7 @@ int play(char a) {
 	else
 		printf("오류");
 }
+
 int b_rand() {
 	srand((unsigned)time(NULL));
 	return(rand() % 2);
