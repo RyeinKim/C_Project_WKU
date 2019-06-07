@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
@@ -153,3 +153,4 @@ int coin_roof_5()
 
 	return 0;
 }
+*/
